@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online shop</title>
+    <link rel="stylesheet" href="shop.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="nav">
+        <nav class="navbar navbar-light bg-light">
+            <div class="nav-two">
+                <input type="text" placeholder="search in PAR ">
+            </div>
+            <div class="nav-one"> <i class="ri-search-line"></i></div>
+           
+          </nav>
+        <i class="ri-menu-line"></i>
+        <i class="ri-home-4-fill"></i>
+        <div class="cart">
+                <h5 id="ca">0</h5>
+                <i class="ri-shopping-cart-line productCart"></i>
+               </div>
+        </div>
+       
+    </div>
+    <div class="produ " id="proj"></div>
+    <div class="main main-one" id="anii">
+        <div class="main-left key-first">
+            <img src="51RFyElFzQL._AC_UY218_.jpg" alt="" height="150vw" width="400vw">
+            <div class="item-quantity">
+                <div class="decrement1 decrement" id="dec1" onclick="decrement1();">
+                    <h3>-</h3>
+                </div>
+                <div class="quantity1 quantity" id="qua1">
+                    
+                </div>
+                <div class="increment1 increment" id="inc1" onclick="(currentvalue1=currentvalue1 + 1);
+                document.getElementById('qua1').innerHTML=currentvalue1;">
+                    <h3>+</h3>
+                </div>
+            </div>
+            
+        </div>
+        <div class="main-right right-first">
+            <h3 class="heading">Cosmic Byte CB-GK-40 Artemis 3 Modes WiFi + Bluetooth + Wired Mechanical Keyboard with Outemu Blue Swappable Switches, Software Support, 1000Hz Polling Rate (Black)</h3>
+            <p><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></p>
+            <p class="ads">100+ bought in past month</p>
+            <div class="limited"><p>Limited time deal</p></div>
+            <h3 class="price">₹3,149
+            </h3>
+            <p class="date">FREE delivery <strong> Sun, 9 Jun</strong></p>
+            <p class="date">Or fastest delivery <strong>Sat, 8 Jun</strong></p>
+            <div class="add" id="ani" onclick="(cart=cart+currentvalue1);
+            document.getElementById('ca').innerHTML=cart;">
+                <h5 onclick="addtoCart();">ADD TO CART</h5>
+                
+               </div> <br>
+               <div class="subt" onclick="subta();">
+                <h6 onclick="removee();">remove item</h6>
+               </div>
+        </div>
+    </div>
+ 
+    <div class="main" id="main1">
+        <div class="main-left key-second">
+            <img src="61EBlTmwkqL._AC_UY218_.jpg" alt="" height="150vw" width="350vw">
+            <div class="item-quantity">
+                <div class="decrement" id="dec" onclick="decrement();">
+                    <h3>-</h3>
+                </div>
+                <div class="quantity" id="qua">
+                    
+                </div>
+                <div class="increment" id="inc" onclick="(currentvalue=currentvalue + 1);
+                document.getElementById('qua').innerHTML=currentvalue;">
+                    <h3>+</h3>
+                </div>
+            </div>
+        </div>
+        <div class="main-right right-second">
+            <h3 class="heading">Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with 114 Keys Including 12 Dedicated Multimedia Keys & with Rupee Key</h3>
+            <p><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></p>
+            <p class="ads">5K+ bought in past month
+            </p>
+            <div class="limited"><p>Limited time deal</p></div>
+            <h3 class="price">₹249
+            </h3>
+            <p class="date">FREE delivery <strong> Sun, 9 Jun</strong></p>
+            <p class="date">Or fastest delivery <strong>Sat, 8 Jun</strong></p>
+            <div class="add" onclick="(cart=cart+currentvalue);
+            document.getElementById('ca').innerHTML=cart;">
+                <h5 onclick="addtoCart1();">ADD TO CART</h5>
+               </div> <br>
+               <div class="subt" onclick="subta();">
+                <h6 onclick="removee1();">remove item</h6>
+               </div>
+        </div>
+    </div>
+    <div class="main" id="main3">
+        <div class="main-left key-third">
+            <img src="81N2AnA91nL._AC_UY218_.jpg" alt="" height="150vw" width="300vw">
+            <div class="item-quantity">
+                <div class="decrement3 decrement" id="dec3" onclick="decrement3();">
+                    <h3>-</h3>
+                </div>
+                <div class="quantity3 quantity" id="qua3">
+                    
+                </div>
+                <div class="increment3 increment" id="inc3" onclick="(currentvalue3=currentvalue3 + 1);
+                document.getElementById('qua3').innerHTML=currentvalue3;">
+                    <h3>+</h3>
+                </div>
+            </div>
+        </div>
+        <div class="main-right right-third ">
+            <h3 class="heading">ASUS Marshmallow Kw100 Keyboard, Supports Up to 3 Devices, 1.6Mm Key Travel, Scissor Keys, Compact & Lightweight Keyboard, Bluetooth (Color - Green Tea Latte)</h3>
+            <p><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></p>
+            <p class="ads">100+ bought in past month</p>
+            <div class="limited"><p>Limited time deal</p></div>
+            <h3 class="price">₹2,799
+            </h3>
+            <p class="date">FREE delivery <strong> Sun, 9 Jun</strong></p>
+            <p class="date">Or fastest delivery <strong>Sat, 8 Jun</strong></p>
+            <div class="add" onclick="(cart=cart+currentvalue3);
+            document.getElementById('ca').innerHTML=cart;">
+                <h5 onclick="addtoCart2();">ADD TO CART</h5>
+               </div> <br>
+               <div class="subt" onclick="subta();">
+                <h6 onclick="removee2();">remove item</h6>
+               </div>
+        </div>
+        
+    </div>
+
+    <!-- <div class="main">
+        <div class="main-left">
+            <img src="61JyZxQ36lL._AC_UY218_.jpg" alt="" height="150vw" width="350vw">
+        </div>
+        <div class="main-right">
+            <h3 class="heading">Ant Value FKBRI01 Ultra-Slim Compact USB Wired Keyboard for Mac and PC,Windows 10/8 / 7 / Vista/XP, Spill-Resistant Silent Keyboard – Membrane Water-Resistant Coating</h3>
+            <p><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></p>
+            <p class="ads">3K+ bought in past month</p>
+            <div class="limited"><p>Limited time deal</p></div>
+            <h3 class="price">₹249
+            </h3>
+            <p class="date">FREE delivery <strong> mon, 10 Jun</strong></p>
+            <p class="date">items fulfilled by Amazon <strong>Sat, 8 Jun</strong></p>
+            <h5>ADD TO CART</h5>
+        </div>
+    </div> -->
+
+
+
+
+    <!-- <div class="append-div">
+        <h1>Hello world</h1>
+    </div> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
